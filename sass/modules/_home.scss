@@ -1,0 +1,98 @@
+* { border: 0; margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    background: url(/images/bg-white.jpg) repeat $bg-color; 
+    color: $text-color; 
+}
+
+#things{
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.things-container { 
+    border-radius: 1rem; 
+    overflow: hidden; 
+    display: inline-block; 
+    text-align: center;
+    margin: 0 12px 20px;
+    position: relative;
+    top: 10px;
+    padding: 25px;
+
+
+}
+
+ .things-container h3 { 
+    font-family: 'Bangers', cursive;
+     font-size: 1.5rem; 
+     padding: 8px;
+}
+
+
+.navbar-brand{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: aqua;
+}
+
+.bg-dark {
+    background-color:cadetblue!important;
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.navbar-nav .nav-link {
+   margin-left: 205px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: aqua;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: #ffff;
+    text-align: center;
+}
+
+.footer p{
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
