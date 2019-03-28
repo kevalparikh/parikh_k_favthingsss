@@ -1,0 +1,11 @@
+<section id="things">
+   <!-- this is a loop for handlebars -->
+    {{#each images}}
+       <div class="things-container">
+           <a href="/{{name}}">
+            <img src="/images/{{image}}" alt="image">
+           </a>
+            <h3 class="product-name">{{name}}</h3>
+       </div>
+    {{/each}}
+</section>
